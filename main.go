@@ -15,6 +15,7 @@ func (s *stopWatch) start() {
 
 func (s *stopWatch) end() {
 	end := time.Now()
+	fmt.Print("test")
 	fmt.Printf("%f秒", end.Sub(s.st).Seconds())
 }
 
