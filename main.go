@@ -21,6 +21,7 @@ func (s *stopWatch) end() {
 func main() {
 	sw := &stopWatch{}
 	start(sw)
+	fmt.Print("test aiko")
 	end(sw)
 }
 
